@@ -6,3 +6,4 @@
 .classpath
 .settings/
 *.prefs
+.vscode/settings.json

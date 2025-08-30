@@ -112,7 +112,7 @@ public class TelegramChat extends JavaPlugin implements Listener {
 				if (success)
 					connectionLost = false;
 			}
-			if (telegramHook.connected) {
+			if (telegramHook.connected && cfg.getBoolean("enable-automated-chat-ids-update")) {
 				connectionLost = !telegramHook.getUpdate();
 			}
 		}, 0L, 10L);

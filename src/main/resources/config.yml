@@ -20,6 +20,9 @@ enable-deathmessages: true
 enable-chatmessages: true
 enable-advancement: true
 
+# this permits to turn on/off the automated add of new chat ids
+enable-automated-chat-ids-update: true
+
 # this will describe all types of advancements you want to be send on your telegram chat, be careful with 'recipes' type which can spam
 advancement-types: "adventure,husbandry,story,nether,end"
 
